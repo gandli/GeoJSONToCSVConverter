@@ -17,7 +17,7 @@ def convert_geojson_to_csv(city_geojson_file, district_geojson_dir, csv_file):
     city_hierarchy = "0-0"
     
     # 合并所有区县的地理轮廓以创建福州市的地理轮廓
-    city_geometry = city_gdf.geometry.unary_union
+    city_geometry = city_gdf.geometry.union_all()
     city_center = city_geometry.centroid
 
     # 添加福州市信息
@@ -63,9 +63,9 @@ def convert_geojson_to_csv(city_geojson_file, district_geojson_dir, csv_file):
     print(f"转换成功: {csv_file}")
 
 # 设置文件路径
-city_geojson_file = '350100.geojson'
-district_geojson_dir = '350100'  # 存放各区县的 GeoJSON 文件的目录
-csv_file = '350100.csv'
+city_geojson_file = 'data/350100.geojson'
+district_geojson_dir = 'data/350100'  # 存放各区县的 GeoJSON 文件的目录
+csv_file = 'output/350100.csv'
 
 # 执行转换
 convert_geojson_to_csv(city_geojson_file, district_geojson_dir, csv_file)
