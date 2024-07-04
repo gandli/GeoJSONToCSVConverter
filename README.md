@@ -37,8 +37,8 @@ CSV 文件格式如下：
 ## 📂 目录说明
 
 - **json2csv.py**：主脚本文件，包含转换逻辑
-- **350100**:存放福州市各区县的 GeoJSON 文件
-- **DrillTree_template.csv**:示例文件
+- **350100**: 存放福州市各区县的 GeoJSON 文件
+- **DrillTree_template.csv**: 示例文件
 
 ## 🌐 数据来源
 
