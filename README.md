@@ -6,7 +6,7 @@
 
 这是一个将 GeoJSON 文件格式转换成符合 Quick BI CSV 文件格式的 Python 脚本。
 
-## 📄 Quick BI CSV文件格式说明
+## 📄 [Quick BI CSV文件格式说明](https://help.aliyun.com/zh/quick-bi/user-guide/custom-geojson)
 
 ```
 CSV 文件格式如下：
@@ -38,6 +38,7 @@ CSV 文件格式如下：
 
 - **json2csv.py**：主脚本文件，包含转换逻辑
 - **350100**:存放福州市各区县的 GeoJSON 文件
+- **DrillTree_template.csv**:示例文件
 
 ## 🌐 数据来源
 
