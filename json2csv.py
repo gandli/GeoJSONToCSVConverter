@@ -92,8 +92,8 @@ def convert_geojson_to_csv(city_geojson_file, district_geojson_dir, csv_file):
 
 
 # 设置文件路径
-city_geojson_file = "data/35000/350100.geojson"
-district_geojson_dir = "data/35000/350100"  # 存放各区县的 GeoJSON 文件的目录
+city_geojson_file = "data/350000/350100.geojson"
+district_geojson_dir = "data/350000/350100"  # 存放各区县的 GeoJSON 文件的目录
 csv_file = "output/350100.csv"
 
 # 执行转换
